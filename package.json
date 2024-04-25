@@ -1,0 +1,15 @@
+{
+  "name": "simple-website",
+  "version": "1.0.0",
+  "description": "Simple website developed in an HTML, CSS, and TypeScript workshop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
