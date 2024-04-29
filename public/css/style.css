@@ -14,7 +14,7 @@ main{
     position: relative;
 }
 
-.coluna100porcento{
+.coluna-100{
     width: 100%;
     float: left;
     position: relative;
@@ -111,4 +111,53 @@ main{
     height: 22px;
     margin-top: 10px;
     margin-right: 15px;
+}
+
+.slider-principal img{
+    background-size: 10%;
+}
+
+.coluna-100-2{
+    width: 15%;
+    float: right;
+    margin-right: 170px;
+    position: relative;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    background-image: url("../image/seta-esquerda.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    z-index: 9;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+button.slick-prev:hover{
+    cursor: pointer;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    background-image: url("../image/seta-direita.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    z-index: 9;
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+button.slick-next:hover{
+    cursor: pointer;
 }
