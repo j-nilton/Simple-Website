@@ -130,6 +130,41 @@ main {
     list-style: none;
 }
 
+.lista-assuntos ul li a:hover {
+    color: #00bac6;
+}
+
+.assunto-geral {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.assunto-pontual {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.hidden {
+    display: none;
+}
+
+button#btnExpandir {
+    text-align: center;
+    width: auto;
+    padding: 0px 2px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px solid #000000;
+    background-color: #ffffff;
+    background-size: 100%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
 .texto {
     width: 50%;
     float: left;
