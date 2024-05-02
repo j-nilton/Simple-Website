@@ -105,6 +105,34 @@ main {
 .menu {
     width: 70%;
     float: left;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu-item {
+    margin: 5px 250px;
 }
 
 .busca {
@@ -129,15 +157,21 @@ main {
 }
 
 .page {
-    top: 150px;
+    top: 140px;
     left: 0;
 }
 
-.lista-assuntos {
+.pagePrincipal1 {
     width: 20%;
     float: left;
     margin-left: 40px;
-    top: 10px;
+    top: 0;
+    position: relative;
+}
+
+.lista-assuntos {
+    width: 95%;
+    float: left;
 }
 
 .lista-assuntos ul li {
@@ -179,16 +213,25 @@ button#btnExpandir {
     cursor: pointer;
 }
 
-.texto {
+.pagePrincipal2 {
     width: 50%;
     float: left;
     text-align: center;
     margin-left: 10px;
     position: relative;
-    top: 10px;
+    top: 0;
+}
+
+.texto {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 0;
 }
 
 .edição-texto h1 {
+    line-height: 0;
+    background-size: 80px;
     text-align: center;
     font-size: 25px;
 }
@@ -204,16 +247,22 @@ button#btnExpandir {
     text-align: center;
 }
 
-.slider-principal img {
-    background-size: 10%;
+.pagePrincipal3 {
+    width: 15%;
+    float: right;
+    margin-right: 40px;
+    position: relative;
+    top: 10px;
 }
 
 .slider-principal {
-    width: 15%;
-    float: right;
-    margin-right: 80px;
+    width: 100%;
     position: relative;
     top: 10px;
+}
+
+.slider-principal img {
+    background-size: 10%;
 }
 
 button.slick-prev {
