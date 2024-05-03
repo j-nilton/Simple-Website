@@ -15,6 +15,7 @@ main {
 }
 
 .coluna-100 {
+    top: 140px;
     width: 100%;
     float: left;
     position: relative;
@@ -154,11 +155,6 @@ main {
     height: 25px;
     margin-top: 8px;
     margin-right: 10px;
-}
-
-.page {
-    top: 140px;
-    left: 0;
 }
 
 .pagePrincipal1 {
